@@ -1,3 +1,19 @@
+/*
+Option 1: Use Gmail SMTP via msmtp (Recommended)
+Instead of sending email directly from your server (which Gmail rejects), relay it through Gmail’s SMTP server using your Gmail credentials.
+
+Here's how to set it up:
+
+📨 Install msmtp:
+
+sudo apt update
+sudo apt install -y msmtp msmtp-mta mailutils
+
+
+*/
+
+
+
 #!/bin/bash
 
 # Threshold in percent (e.g. 80 means alert if usage is 80% or more)
