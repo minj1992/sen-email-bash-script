@@ -8,9 +8,8 @@ sudo apt-get install -y ssmtp
 ✅ Step 2: Configure /etc/ssmtp/ssmtp.conf
 Open the file:
 
-bash
-Copy
-Edit
+
+
 sudo nano /etc/ssmtp/ssmtp.conf
 Paste in this configuration:
 
